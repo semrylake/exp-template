@@ -37,6 +37,6 @@
 //     }
 // }
 const returnjson = function(req, res, next) {
-    res.send('Route for users here now finished add livereload');
+    res.json({"msg":'Route for users here now finished add livereload'});
   };
 module.exports = returnjson;

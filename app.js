@@ -16,6 +16,7 @@ liveReloadServer.server.once("connection", () => {
   setTimeout(() => {
     liveReloadServer.refresh("/");
     liveReloadServer.refresh("/akun");
+    liveReloadServer.refresh("/absen");
   }, 100);
 });
 
