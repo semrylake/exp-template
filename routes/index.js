@@ -7,7 +7,7 @@ const returnjson = require("../controllers/akunController.js");
 const {absen} = require("../controllers/absenController.js");
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Express Regenarator' });
+  res.render('index', { title: 'Express UKOM Monitoring' });
 });
 
 router.get('/akun', returnjson);
