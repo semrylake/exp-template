@@ -37,6 +37,8 @@
 //     }
 // }
 const returnjson = function(req, res, next) {
-    res.json({"msg":'Route for users here now finished add livereload'});
+    res.json({"msg":'Route for users here now finished add livereload sample'});
   };
 module.exports = returnjson;
+
+// cek cek nanti hapus

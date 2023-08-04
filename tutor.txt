@@ -1,0 +1,4 @@
+app.js  -->
+npm run --> to start
+nodemon start --> to start nodemon auto reload server
+
