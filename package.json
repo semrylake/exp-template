@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "watch": "nodemon --ext *",
     "live": "npm run watch",
-    "production": "pm2 nodemon --ext * --name app"
+    "production": "pm2 start app.js --watch --name app_expressjs"
   },
   "dependencies": {
     "bootstrap": "^5.3.1",
