@@ -8,7 +8,7 @@ var router = express.Router();
 router.get('/', function (req, res, next) {
   res.render('index', {
     title: 'Semri Dashboard Monitoring KTKI',
-    headTab:"Home 🏡"
+    headTab:"🏡 | Home"
   });
 });
 
