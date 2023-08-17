@@ -6,7 +6,10 @@ var router = express.Router();
 // const { absen } = require("../controllers/absenController.js");
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Semri Dashboard Monitoring KTKI' });
+  res.render('index', {
+    title: 'Semri Dashboard Monitoring KTKI',
+    headTab:"Home 🏡"
+  });
 });
 
 // use controller
